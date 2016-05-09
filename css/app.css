@@ -1,0 +1,12 @@
+body {
+    font-family: 'Oregano';
+}
+.row {
+    max-width: 100%;
+}
+.landing {
+    height: 70%;
+    background-image: url(../img/landing.jpg);
+    background-size: cover;
+    color: white;
+}
