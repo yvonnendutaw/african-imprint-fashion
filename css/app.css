@@ -5,8 +5,20 @@ body {
     max-width: 100%;
 }
 .landing {
-    height: 70%;
+    height: 100%;
     background-image: url(../img/landing.jpg);
     background-size: cover;
     color: white;
+}
+.text h3 {
+    margin-top: 24%;
+    font-size: 90px;
+    font-family: 'Oregano';
+}
+.about {
+    color: black;
+}
+.about-text {
+    width: 50%;
+    float: right;
 }
