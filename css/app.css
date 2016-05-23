@@ -15,10 +15,23 @@ body {
     font-size: 90px;
     font-family: 'Oregano';
 }
-.about {
-    color: black;
-}
-.about-text {
+.image {
+    padding: 2%;
     width: 50%;
-    float: right;
+}
+.imgr {
+    width: 60%;
+    height: 500px;
+    margin-left: 10%;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.imgr:hover {
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+#about {
+    background-color: #0e141a;
 }
