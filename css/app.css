@@ -1,4 +1,10 @@
-body {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Oregano';
 }
 .row {
@@ -34,4 +40,8 @@ body {
 }
 #about {
     background-color: #0e141a;
+}
+.imge {
+    width: 33.33%;
+    padding: 2%;
 }
