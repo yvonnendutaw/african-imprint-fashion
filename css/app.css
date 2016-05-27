@@ -29,3 +29,9 @@ body,h1,h2,h3,h4,h5,h6 {
     background-color:white;
     color:black;
 }
+.fa{
+    font-size: 30px;
+    color: blueviolet;
+    border: solid 1px black;
+    border-radius: 50%;
+}
