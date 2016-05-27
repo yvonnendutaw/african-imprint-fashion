@@ -22,3 +22,8 @@ body {
     width: 50%;
     float: right;
 }
+.contacts{
+    height:50%;
+    width:100%;
+    background-color: black;
+}
