@@ -1,25 +1,35 @@
-
-body,h1,h2,h3,h4,h5,h6 {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Oregano';
 }
+
 .row {
     max-width: 100%;
 }
+
 .landing {
     height: 100%;
     background-image: url(../img/landing.jpg);
     background-size: cover;
     color: white;
 }
+
 .text h3 {
     margin-top: 24%;
     font-size: 90px;
     font-family: 'Oregano';
 }
+
 .image {
     padding: 2%;
     width: 50%;
 }
+
 .imgr {
     width: 60%;
     height: 500px;
@@ -29,36 +39,40 @@ body,h1,h2,h3,h4,h5,h6 {
     -webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
 }
+
 .imgr:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
+
 #about {
     background-color: #0e141a;
 }
+
 .imge {
     width: 33.33%;
     padding: 2%;
 }
-.contacts{
-    height:50%;
-    width:100%;
-    background-color:floralwhite;
-    color:black;
+
+.contacts {
+    height: 50%;
+    width: 100%;
+    background-color: floralwhite;
+    color: black;
 }
-.fa{
+
+.fa {
     font-size: 100px;
     color: grey;
-
-
 }
-.fa:hover{
+
+.fa:hover {
     color: black;
-    border:  solid 1px black;
+    border: solid 1px black;
 }
-.footer{
-    background-color: black;
-    height :20%;
-    color:white;
 
+.footer {
+    background-color: black;
+    height: 20%;
+    color: white;
 }
