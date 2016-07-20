@@ -5,122 +5,126 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Oregano';
+	font-family: 'Oregano';
 }
 
 .row.row {
-    max-width: 100%;
+	max-width: 100%;
 }
 
 .landing {
-    height: 100%;
-    background-image: url(../img/landing.jpg);
-    background-size: cover;
-    color: white;
+	height: 100%;
+	background-image: url(../img/landing.jpg);
+	background-size: cover;
+	color: white;
 }
 
 .text h3 {
-    margin-top: 24%;
-    font-size: 90px;
-    font-family: 'Oregano';
+	margin-top: 24%;
+	font-size: 90px;
+	font-family: 'Oregano';
 }
 
 .image {
-    padding: 2%;
-    width: 50%;
+	padding: 2%;
+	width: 50%;
 }
 
 .imgr {
-    width: 60%;
-    height: 500px;
-    margin-left: 10%;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+	width: 60%;
+	height: 500px;
+	margin-left: 10%;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .imgr:hover {
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 #about {
-    background-color: #0e141a;
+	background-color: #0e141a;
 }
 
 .imge {
-    width: 33.33%;
-    padding: 2%;
+	width: 33.33%;
+	padding: 2%;
 }
 
 .contacts {
-    height: 50%;
-    width: 100%;
-    background-color: floralwhite;
-    color: black;
+	height: 50%;
+	width: 100%;
+	background-color: floralwhite;
+	color: black;
 }
 
 .fa {
-    font-size: 100px;
-    color: grey;
+	font-size: 100px;
+	color: grey;
 }
 
 .fa:hover {
-    color: black;
-    border: solid 1px black;
-}
-.footer{
-    background-color: black;
-    width:100%;
-    height :20%;
-    color:white;
+	color: black;
+	border: solid 1px black;
 }
 
 .footer {
-    background-color: black;
-    height: 20%;
-    color: white;
+	background-color: black;
+	width: 100%;
+	height: 20%;
+	color: white;
 }
+
+.footer {
+	background-color: black;
+	height: 20%;
+	color: white;
+}
+
 .menu {
-  line-height: 1;
-  margin: 0 auto 3em;
+	line-height: 1;
+	margin: 0 auto 3em;
 }
 
 .menu__list {
-  position: relative;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-  list-style: none;
+	position: relative;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 }
 
 .menu__item {
-  display: block;
-  margin: 1em 0;
+	display: block;
+	margin: 1em 0;
 }
 
 .menu__link {
-  font-size: 1.05em;
-  font-weight: bold;
-  display: block;
-  padding: 1em;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-touch-callout: none;
-  -khtml-user-select: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	font-size: 1.05em;
+	font-weight: bold;
+	display: block;
+	padding: 1em;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+	-khtml-user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+
 .menu__link:hover,
 .menu__link:focus {
 	outline: none;
 }
+
 .menu--prospero .menu__link {
 	position: relative;
 	display: block;
@@ -130,6 +134,7 @@ h6 {
 	color: #b5b5b5;
 	transition: color 0.3s;
 }
+
 .menu--prospero .menu__link:hover,
 .menu--prospero .menu__link:focus {
 	color: #929292;
@@ -138,6 +143,7 @@ h6 {
 .menu--prospero .menu__item--current .menu__link {
 	color: #d94f5c;
 }
+
 .menu--prospero .menu__link::before {
 	content: '';
 	position: absolute;
@@ -149,8 +155,338 @@ h6 {
 	transform: scale3d(0, 1, 1);
 	transition: transform 0.1s;
 }
+
 .menu--prospero .menu__item--current .menu__link::before {
 	transform: scale3d(1, 1, 1);
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	transition-duration: 0.3s;
+}
+
+
+/*hover effects*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+figure.snip1477 {
+	font-family: 'Raleway', Arial, sans-serif;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 11px 1%;
+	min-width: 230px;
+	max-width: 31.33%;
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	font-size: 16px;
+	background-color: #000000;
+}
+
+figure.snip1477 *,
+figure.snip1477 *:before,
+figure.snip1477 *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.55s ease;
+	transition: all 0.55s ease;
+}
+
+figure.snip1477 img {
+	max-width: 100%;
+	backface-visibility: hidden;
+	vertical-align: top;
+	opacity: 0.9;
+}
+
+figure.snip1477 .title {
+	position: absolute;
+	top: 58%;
+	left: 25px;
+	padding: 5px 10px 10px;
+}
+
+figure.snip1477 .title:before,
+figure.snip1477 .title:after {
+	height: 2px;
+	width: 400px;
+	position: absolute;
+	content: '';
+	background-color: #ffffff;
+}
+
+figure.snip1477 .title:before {
+	top: 0;
+	left: 10px;
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+figure.snip1477 .title:after {
+	bottom: 0;
+	right: 10px;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
+
+figure.snip1477 .title div:before,
+figure.snip1477 .title div:after {
+	width: 2px;
+	height: 300px;
+	position: absolute;
+	content: '';
+	background-color: #ffffff;
+}
+
+figure.snip1477 .title div:before {
+	top: 10px;
+	right: 0;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+}
+
+figure.snip1477 .title div:after {
+	bottom: 10px;
+	left: 0;
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+
+figure.snip1477 h2,
+figure.snip1477 h4 {
+	margin: 0;
+	text-transform: uppercase;
+}
+
+figure.snip1477 h2 {
+	font-weight: 400;
+}
+
+figure.snip1477 h4 {
+	display: block;
+	font-weight: 700;
+	background-color: #ffffff;
+	padding: 5px 10px;
+	color: #000000;
+}
+
+figure.snip1477 figcaption {
+	position: absolute;
+	bottom: 42%;
+	left: 25px;
+	text-align: left;
+	opacity: 0;
+	padding: 5px 60px 5px 10px;
+	font-size: 0.8em;
+	font-weight: 500;
+	letter-spacing: 1.5px;
+}
+
+figure.snip1477 figcaption p {
+	margin: 0;
+}
+
+figure.snip1477 a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+figure.snip1477:hover img,
+figure.snip1477.hover img {
+	zoom: 1;
+	filter: alpha(opacity=35);
+	-webkit-opacity: 0.35;
+	opacity: 0.35;
+}
+
+figure.snip1477:hover .title:before,
+figure.snip1477.hover .title:before,
+figure.snip1477:hover .title:after,
+figure.snip1477.hover .title:after,
+figure.snip1477:hover .title div:before,
+figure.snip1477.hover .title div:before,
+figure.snip1477:hover .title div:after,
+figure.snip1477.hover .title div:after {
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+
+figure.snip1477:hover .title:before,
+figure.snip1477.hover .title:before,
+figure.snip1477:hover .title:after,
+figure.snip1477.hover .title:after {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+figure.snip1477:hover figcaption,
+figure.snip1477.hover figcaption {
+	opacity: 1;
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1500 {
+	font-family: 'Raleway', Arial, sans-serif;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 230px;
+	max-width: 315px;
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	font-size: 16px;
+	background-color: #000000;
+}
+
+.snip1500 *,
+.snip1500 *:before,
+.snip1500 *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.55s ease;
+	transition: all 0.55s ease;
+}
+
+.snip1500 img {
+	max-width: 100%;
+	backface-visibility: hidden;
+	vertical-align: top;
+}
+
+.snip1500 figcaption {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	padding: 5px 10px 10px;
+	opacity: 0;
+	-webkit-transform: rotate(45deg) translate(-50%, -50%);
+	transform: rotate(45deg) translate(-50%, -50%);
+	-webkit-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.snip1500 figcaption:before,
+.snip1500 figcaption:after {
+	height: 2px;
+	width: 400px;
+	position: absolute;
+	content: '';
+	background-color: #ffffff;
+}
+
+.snip1500 figcaption:before {
+	top: 0;
+	left: 10px;
+	-webkit-transform: translateX(100%);
+	transform: translateX(100%);
+}
+
+.snip1500 figcaption:after {
+	bottom: 0;
+	right: 10px;
+	-webkit-transform: translateX(-100%);
+	transform: translateX(-100%);
+}
+
+.snip1500 figcaption div:before,
+.snip1500 figcaption div:after {
+	width: 2px;
+	height: 300px;
+	position: absolute;
+	content: '';
+	background-color: #ffffff;
+}
+
+.snip1500 figcaption div:before {
+	top: 10px;
+	right: 0;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+}
+
+.snip1500 figcaption div:after {
+	bottom: 10px;
+	left: 0;
+	-webkit-transform: translateY(-100%);
+	transform: translateY(-100%);
+}
+
+.snip1500 h2,
+.snip1500 h4 {
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.snip1500 h2 {
+	font-weight: 400;
+}
+
+.snip1500 h4 {
+	display: block;
+	font-weight: 700;
+	background-color: #ffffff;
+	padding: 5px 10px;
+	color: #000000;
+}
+
+.snip1500 a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.snip1500:hover img,
+.snip1500.hover img {
+	zoom: 1;
+	filter: alpha(opacity=50);
+	-webkit-opacity: 0.5;
+	opacity: 0.5;
+}
+
+.snip1500:hover figcaption,
+.snip1500.hover figcaption {
+	opacity: 1;
+}
+
+.snip1500:hover figcaption:before,
+.snip1500.hover figcaption:before,
+.snip1500:hover figcaption:after,
+.snip1500.hover figcaption:after,
+.snip1500:hover figcaption div:before,
+.snip1500.hover figcaption div:before,
+.snip1500:hover figcaption div:after,
+.snip1500.hover figcaption div:after {
+	-webkit-transform: translate(0, 0);
+	transform: translate(0, 0);
+}
+
+.snip1500:hover figcaption:before,
+.snip1500.hover figcaption:before,
+.snip1500:hover figcaption:after,
+.snip1500.hover figcaption:after {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+figure img {
+	height: 550px;
+}
+
+.img1 {
+	background: #000;
+}
+
+#about {
+	height: 50%;
+	background: #334;
 }
