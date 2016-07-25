@@ -54,13 +54,13 @@ h6 {
     width: 100%;
     background-color: floralwhite;
     color: black;
-    display:block;
+    display: block;
     text-align-last: center;
     align-content: center;
+    padding-left: 100px;
 }
-
 .fa {
-    font-size: 60px;
+    font-size: 40px;
     color: grey;
 }
 .fa:hover {
@@ -448,27 +448,22 @@ figure img {
     text-align: center;
     margin-top: 5%;
 }
-
-.icons {
-    margin-top: 10%;
-    margin-left: 
-    
-    
+.icons ul {
+    list-style: none;
 }
-
+.list li {
+    padding: 40px;
+    display: inline-block;
+}
 .copy {
     text-align: center;
 }
-
 .tweet {
-color:black;
-    
+    color: black;
 }
-
 .insta {
-    color:black;
+    color: black;
 }
-
 .face {
-    color:black;
+    color: black;
 }
