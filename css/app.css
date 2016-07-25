@@ -54,7 +54,11 @@ h6 {
     width: 100%;
     background-color: floralwhite;
     color: black;
+    display:block;
+    text-align-last: center;
+    align-content: center;
 }
+
 .fa {
     font-size: 60px;
     color: grey;
@@ -446,7 +450,7 @@ figure img {
 }
 
 .icons {
-    margin-top: 5%;
+    margin-top: 10%;
     margin-left: 
     
     
@@ -454,4 +458,17 @@ figure img {
 
 .copy {
     text-align: center;
+}
+
+.tweet {
+color:black;
+    
+}
+
+.insta {
+    color:black;
+}
+
+.face {
+    color:black;
 }
